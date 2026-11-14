@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://smashbg.bg/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://smashbg.bg/assets/img/grapple.jpg</image:loc><image:title>Smash BG – строително събаряне</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/proekti/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://smashbg.bg/assets/img/aerial.jpg</image:loc><image:title>Събаряне на производствена база, Пловдив</image:title><image:caption>Въздушна снимка на обект за събаряне сред зеленина</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/grapple.jpg</image:loc><image:title>Демонтаж на метална покривна конструкция, Варна</image:title><image:caption>Багер с грайфер къса метално хале</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/rubble.jpg</image:loc><image:title>Разчистване на терен и сортиране на отпадъци, София</image:title><image:caption>Купища натрошени тухли и контейнер на обект</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/frame.jpg</image:loc><image:title>Събаряне на стоманобетонна конструкция, Бургас</image:title><image:caption>Багер къса бетонна конструкция</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/stakehill.jpg</image:loc><image:title>Вътрешен демонтаж на логистичен склад, Стара Загора</image:title><image:caption>Огромно хале с метални ферми</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/kent.jpg</image:loc><image:title>Вътрешно разчистване на склад, Русе</image:title><image:caption>Вътрешност на хале с метална конструкция</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/edinburgh.jpg</image:loc><image:title>Демонтаж на панели и тавани в хале, Плевен</image:title><image:caption>Празно хале със стенни панели</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/mezz.jpg</image:loc><image:title>Демонтаж на антресол и стоманена конструкция, Пловдив</image:title><image:caption>Стоманена конструкция в хале по време на демонтаж</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/ponty.jpg</image:loc><image:title>Събаряне и разчистване на производствено хале, Хасково</image:title><image:caption>Вътрешност на хале с тръби и конструкция</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/telford.jpg</image:loc><image:title>Събаряне на жилищна сграда, Благоевград</image:title><image:caption>Оранжев багер събаря къща</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/glasgow.jpg</image:loc><image:title>Вътрешен демонтаж на търговски обект, София</image:title><image:caption>Оголени тавани и стоманени греди</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/toys.jpg</image:loc><image:title>Разчистване на бивш цех, Перник</image:title><image:caption>Два багера работят в голямо хале</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/pizza.jpg</image:loc><image:title>Вътрешен демонтаж на търговска сграда, Бургас</image:title><image:caption>Празна вътрешност на хале със стоманена конструкция</image:caption></image:image>
+    <image:image><image:loc>https://smashbg.bg/assets/img/glass.jpg</image:loc><image:title>Демонтаж на остъкляване и покрив, Сливен</image:title><image:caption>Стъклен покрив над стоманена конструкция</image:caption></image:image>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/uslugi/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/rayoni/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/za-nas/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/azbestovi-pokrivi/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/avariyno-sabaryane/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/kontakti/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/politika-za-poveritelnost/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/obshti-usloviya/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://smashbg.bg/biskvitki/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>

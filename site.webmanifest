@@ -1,0 +1,30 @@
+{
+  "name": "Smash BG – Строително събаряне",
+  "short_name": "Smash BG",
+  "description": "Smash BG: строително събаряне, къртене на бетон, вътрешен демонтаж и разчистване на терени в цяла България. Безплатен оглед, аварийна линия 24/7.",
+  "lang": "bg",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070a1a",
+  "theme_color": "#070a1a",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

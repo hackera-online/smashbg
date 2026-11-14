@@ -1,37 +1,38 @@
 # Smash BG
 
-Сайт на фирма за строително събаряне. Чист HTML, CSS и JavaScript, без build стъпка.
+Статичен сайт на фирма за строително събаряне. Чист HTML, CSS и JavaScript, без build стъпка.
+© 2026 МИЛЕНА КОРЕКТ ЕООД. Всички права запазени.
 
-## Структура
-
-```
-index.html        # всички страници (маршрутизация през #hash)
-404.html          # пренасочва към страница 404 в сайта
-css/style.css     # стилове
-js/main.js        # данни, маршрутизация, форма
-assets/img/       # снимки
-assets/favicon.svg
-```
-
-Страници: `#home`, `#projects`, `#services`, `#areas`, `#about`, `#asbestos`, `#emergency`, `#contact`, `#privacy`, `#terms`, `#cookies`.
-
-## Стартиране
-
-Отворете `index.html` в браузър или пуснете локален сървър:
+## Структура (всяка страница е отделен адрес)
 
 ```
-python3 -m http.server 8000
+index.html                         /
+uslugi/  proekti/  rayoni/  za-nas/
+azbestovi-pokrivi/  avariyno-sabaryane/  kontakti/
+politika-za-poveritelnost/  obshti-usloviya/  biskvitki/
+404.html            страница за грешка (noindex)
+sitemap.xml         карта на сайта (със снимки за /proekti/)
+robots.txt          правила за ботове + линк към sitemap
+site.webmanifest    PWA / иконки
+favicon.ico, assets/  икони, OG снимка (1200x630), снимки
+.htaccess / _headers  HTTPS, кеш, компресия, защитни хедъри
+.nojekyll           за GitHub Pages
 ```
 
-## GitHub Pages
+## ВАЖНО преди пускане: домейн
 
-Settings → Pages → Deploy from a branch → `main` / `/ (root)`.
+В `canonical`, `og:url`, JSON-LD, `sitemap.xml` и `robots.txt` е заложен домейн `https://smashbg.bg`.
+Сменете го с реалния (в папката на сайта):
 
-## Преди пускане
+```
+grep -rIl "https://smashbg.bg" . | xargs sed -i 's#https://smashbg.bg#https://ВАШИЯТ-ДОМЕЙН#g'
+```
 
-- Сменете телефона `+359 888 000 000` и имейла `info@smashbg.demo` в `index.html` (търсете `888 000 000` и `smashbg.demo`).
-- Свържете формата за оферта в `js/main.js` (сега е демо и не изпраща нищо), напр. Formspree или собствен бекенд.
-- Попълнете и прегледайте с юрист страниците Поверителност, Общи условия и Бисквитки (полета в `[скоби]`).
-- Заменете примерните отзиви, цифри и проекти с реални.
-- Добавете банер за бисквитки, ако включите Google Analytics или карта.
-- Заменете снимките в `assets/img/` с оригинали с по-висока резолюция.
+След това: Google Search Console → Sitemaps → `https://ВАШИЯТ-ДОМЕЙН/sitemap.xml`.
+
+## Още за довършване
+
+- В страниците Поверителност и Общи условия остават `[номер]` (ЕИК) и `[адрес]`.
+- Формата за оферта е демо и не изпраща данни (свържете Formspree или собствен бекенд в `js/main.js`).
+- Отзивите, цифрите и проектите са примерни, заменете ги с реални.
+- В JSON-LD адресът е само "София, BG"; добавете точен адрес и координати, когато са налични.

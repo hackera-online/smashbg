@@ -1,0 +1,5 @@
+# МИЛЕНА КОРЕКТ ЕООД – Smash BG
+User-agent: *
+Allow: /
+
+Sitemap: https://smashbg.bg/sitemap.xml
